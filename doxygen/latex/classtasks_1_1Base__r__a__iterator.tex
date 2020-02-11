@@ -1,0 +1,150 @@
+\hypertarget{classtasks_1_1Base__r__a__iterator}{}\section{tasks\+:\+:Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$ Class Template Reference}
+\label{classtasks_1_1Base__r__a__iterator}\index{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$}}
+
+
+Base template class representing base iterator.  
+
+
+
+
+{\ttfamily \#include $<$r\+\_\+a\+\_\+iterator.\+hpp$>$}
+
+
+
+Inheritance diagram for tasks\+:\+:Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$\+:
+% FIG 0
+
+
+Collaboration diagram for tasks\+:\+:Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtasks_1_1Base__r__a__iterator_a9b642f7fa44c6d9d74ba8c43794db998}{Base\+\_\+r\+\_\+a\+\_\+iterator} (const T $\ast$w\+\_\+ptr=0)
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+T \& \hyperlink{classtasks_1_1Base__r__a__iterator_a7166ade7d4d19a0cb68a4587ce0863b2}{operator$\ast$} ()\hypertarget{classtasks_1_1Base__r__a__iterator_a7166ade7d4d19a0cb68a4587ce0863b2}{}\label{classtasks_1_1Base__r__a__iterator_a7166ade7d4d19a0cb68a4587ce0863b2}
+
+\begin{DoxyCompactList}\small\item\em returns reference to an object. \end{DoxyCompactList}\item 
+const T \& \hyperlink{classtasks_1_1Base__r__a__iterator_a613ef9dbb121bb125922fea738c25b89}{operator$\ast$} () const \hypertarget{classtasks_1_1Base__r__a__iterator_a613ef9dbb121bb125922fea738c25b89}{}\label{classtasks_1_1Base__r__a__iterator_a613ef9dbb121bb125922fea738c25b89}
+
+\begin{DoxyCompactList}\small\item\em returns const reference to an object. \end{DoxyCompactList}\item 
+T $\ast$ \hyperlink{classtasks_1_1Base__r__a__iterator_aef4baa1783209bbeef9be780cf43394e}{operator-\/$>$} ()\hypertarget{classtasks_1_1Base__r__a__iterator_aef4baa1783209bbeef9be780cf43394e}{}\label{classtasks_1_1Base__r__a__iterator_aef4baa1783209bbeef9be780cf43394e}
+
+\begin{DoxyCompactList}\small\item\em returns pointer to an object. \end{DoxyCompactList}\item 
+const T $\ast$ \hyperlink{classtasks_1_1Base__r__a__iterator_ab07633059431202af6a457a07a940454}{operator-\/$>$} () const \hypertarget{classtasks_1_1Base__r__a__iterator_ab07633059431202af6a457a07a940454}{}\label{classtasks_1_1Base__r__a__iterator_ab07633059431202af6a457a07a940454}
+
+\begin{DoxyCompactList}\small\item\em returns const pointer to an object. \end{DoxyCompactList}\item 
+bool \hyperlink{classtasks_1_1Base__r__a__iterator_ad5764a2e6f21f0382e962716f42b620a}{operator==} (\hyperlink{classtasks_1_1Base__r__a__iterator}{Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$ iter) const 
+\begin{DoxyCompactList}\small\item\em Compare equality of two iterators. \end{DoxyCompactList}\item 
+bool \hyperlink{classtasks_1_1Base__r__a__iterator_a0209f049a7a83293b053be20fa515c0c}{operator!=} (\hyperlink{classtasks_1_1Base__r__a__iterator}{Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$ iter) const 
+\begin{DoxyCompactList}\small\item\em Compare non equality of two iterators. \end{DoxyCompactList}\item 
+bool \hyperlink{classtasks_1_1Base__r__a__iterator_ae41b918686e4128f442d68d0f00964bc}{operator$<$} (\hyperlink{classtasks_1_1Base__r__a__iterator}{Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$ iter) const 
+\begin{DoxyCompactList}\small\item\em Compare if iterator is less than given iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+T $\ast$ {\bfseries get\+\_\+ptr} () const \hypertarget{classtasks_1_1Base__r__a__iterator_aab981e64d35bfca643c7b110c1de27e0}{}\label{classtasks_1_1Base__r__a__iterator_aab981e64d35bfca643c7b110c1de27e0}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T $\ast$ \hyperlink{classtasks_1_1Base__r__a__iterator_ab81bb3ae44d8d6c43b58832743529320}{m\+\_\+referee\+\_\+ptr}\hypertarget{classtasks_1_1Base__r__a__iterator_ab81bb3ae44d8d6c43b58832743529320}{}\label{classtasks_1_1Base__r__a__iterator_ab81bb3ae44d8d6c43b58832743529320}
+
+\begin{DoxyCompactList}\small\item\em Pointer to an object on which iterator points. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Vector$<$ T $>$}\hypertarget{classtasks_1_1Base__r__a__iterator_a07857ea092bfd5d08a811e05ad544204}{}\label{classtasks_1_1Base__r__a__iterator_a07857ea092bfd5d08a811e05ad544204}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$\\*
+class tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$}
+
+Base template class representing base iterator. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}!Base\+\_\+r\+\_\+a\+\_\+iterator@{Base\+\_\+r\+\_\+a\+\_\+iterator}}
+\index{Base\+\_\+r\+\_\+a\+\_\+iterator@{Base\+\_\+r\+\_\+a\+\_\+iterator}!tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}}
+\subsubsection[{\texorpdfstring{Base\+\_\+r\+\_\+a\+\_\+iterator(const T $\ast$w\+\_\+ptr=0)}{Base_r_a_iterator(const T *w_ptr=0)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$\+::{\bf Base\+\_\+r\+\_\+a\+\_\+iterator} (
+\begin{DoxyParamCaption}
+\item[{const T $\ast$}]{w\+\_\+ptr = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classtasks_1_1Base__r__a__iterator_a9b642f7fa44c6d9d74ba8c43794db998}{}\label{classtasks_1_1Base__r__a__iterator_a9b642f7fa44c6d9d74ba8c43794db998}
+
+
+Default constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em w\+\_\+ptr} & Pointer to an object. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}}
+\subsubsection[{\texorpdfstring{operator"!=(\+Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$ iter) const }{operator!=(Base_r_a_iterator< T > iter) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$\+::operator!= (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$}]{iter}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtasks_1_1Base__r__a__iterator_a0209f049a7a83293b053be20fa515c0c}{}\label{classtasks_1_1Base__r__a__iterator_a0209f049a7a83293b053be20fa515c0c}
+
+
+Compare non equality of two iterators. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iter} & Iterator to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if non equal, false if equal; 
+\end{DoxyReturn}
+\index{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}}
+\subsubsection[{\texorpdfstring{operator$<$(\+Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$ iter) const }{operator<(Base_r_a_iterator< T > iter) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$\+::operator$<$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$}]{iter}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtasks_1_1Base__r__a__iterator_ae41b918686e4128f442d68d0f00964bc}{}\label{classtasks_1_1Base__r__a__iterator_ae41b918686e4128f442d68d0f00964bc}
+
+
+Compare if iterator is less than given iterator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iter} & Iterator to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if less than given, false if not. 
+\end{DoxyReturn}
+\index{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}!operator==@{operator==}}
+\index{operator==@{operator==}!tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator@{tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}}
+\subsubsection[{\texorpdfstring{operator==(\+Base\+\_\+r\+\_\+a\+\_\+iterator$<$ T $>$ iter) const }{operator==(Base_r_a_iterator< T > iter) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf tasks\+::\+Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$\+::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\+\_\+r\+\_\+a\+\_\+iterator}$<$ T $>$}]{iter}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtasks_1_1Base__r__a__iterator_ad5764a2e6f21f0382e962716f42b620a}{}\label{classtasks_1_1Base__r__a__iterator_ad5764a2e6f21f0382e962716f42b620a}
+
+
+Compare equality of two iterators. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iter} & Iterator to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if equal, false if not. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/andreas/\+Desktop/\+Andreas/smart\+\_\+array/src/\hyperlink{r__a__iterator_8hpp}{r\+\_\+a\+\_\+iterator.\+hpp}\end{DoxyCompactItemize}

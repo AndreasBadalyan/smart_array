@@ -1,0 +1,65 @@
+\hypertarget{smart__array_8hpp}{}\section{/home/andreas/\+Desktop/\+Andreas/smart\+\_\+array/src/smart\+\_\+array.hpp File Reference}
+\label{smart__array_8hpp}\index{/home/andreas/\+Desktop/\+Andreas/smart\+\_\+array/src/smart\+\_\+array.\+hpp@{/home/andreas/\+Desktop/\+Andreas/smart\+\_\+array/src/smart\+\_\+array.\+hpp}}
+
+
+File contains definition of template Vector class.  
+
+
+{\ttfamily \#include $<$stdexcept$>$}\\*
+{\ttfamily \#include $<$limits$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$cstddef$>$}\\*
+{\ttfamily \#include $<$bits/cpp\+\_\+type\+\_\+traits.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}r\+\_\+a\+\_\+iterator.\+hpp\char`\"{}}\\*
+Include dependency graph for smart\+\_\+array.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classtasks_1_1Vector}{tasks\+::\+Vector$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em Template \hyperlink{classtasks_1_1Vector}{Vector} class. \end{DoxyCompactList}\item 
+class \hyperlink{classtasks_1_1Vector_1_1Iterator}{tasks\+::\+Vector$<$ T $>$\+::\+Iterator}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classtasks_1_1Vector_1_1Iterator}{Iterator} class. \end{DoxyCompactList}\item 
+class \hyperlink{classtasks_1_1Vector_1_1Reverse__iterator}{tasks\+::\+Vector$<$ T $>$\+::\+Reverse\+\_\+iterator}
+\begin{DoxyCompactList}\small\item\em Reverse iterator class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \hyperlink{smart__array_8hpp_a277f76f91fabec57c5aa74ec277a1dc1}{tasks\+::copy} (T $\ast$left\+\_\+ptr, T $\ast$right\+\_\+ptr, T $\ast$end\+\_\+ptr)
+\begin{DoxyCompactList}\small\item\em Copies right array into left. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const unsigned {\bfseries tasks\+::cap\+\_\+modifier} = 3\hypertarget{smart__array_8hpp_ac161517b633329861c0bcaa102d18d5f}{}\label{smart__array_8hpp_ac161517b633329861c0bcaa102d18d5f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+File contains definition of template Vector class. 
+
+
+
+\subsection{Function Documentation}
+\index{smart\+\_\+array.\+hpp@{smart\+\_\+array.\+hpp}!copy@{copy}}
+\index{copy@{copy}!smart\+\_\+array.\+hpp@{smart\+\_\+array.\+hpp}}
+\subsubsection[{\texorpdfstring{copy(\+T $\ast$left\+\_\+ptr, T $\ast$right\+\_\+ptr, T $\ast$end\+\_\+ptr)}{copy(T *left_ptr, T *right_ptr, T *end_ptr)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void tasks\+::copy (
+\begin{DoxyParamCaption}
+\item[{T $\ast$}]{left\+\_\+ptr, }
+\item[{T $\ast$}]{right\+\_\+ptr, }
+\item[{T $\ast$}]{end\+\_\+ptr}
+\end{DoxyParamCaption}
+)}\hypertarget{smart__array_8hpp_file_a277f76f91fabec57c5aa74ec277a1dc1}{}\label{smart__array_8hpp_file_a277f76f91fabec57c5aa74ec277a1dc1}
+
+
+Copies right array into left. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left\+\_\+ptr,right\+\_\+ptr} & Pointers to the start of left and right arrays. \\
+\hline
+{\em end\+\_\+ptr} & Pointer to the end of the left array. \\
+\hline
+\end{DoxyParams}

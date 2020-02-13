@@ -1,6 +1,6 @@
 # Test smart array
  
-write and testing smart array.
+Smart array (vector) implementation and testing.
  
 ## Compilation 
  
